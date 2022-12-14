@@ -5,7 +5,8 @@
 /* To quickly generate your own theme, check out the color generator */
 /* https://ionicframework.com/docs/theming/color-generator */
 :root {
-    --ion-text-color:  #03071e;
+    --ion-text-color:  #f9f7f3;/*#03071e;*/
+    --ion-background-color: transparent;
 
     --ion-color-secondary: #0fa3b1;
     --ion-color-secondary-contrast: #f9f7f3;
@@ -42,3 +43,7 @@
     text-transform: capitalize;
 }
 
+
+/*::host{
+    --ion-background: transparent;
+}*/

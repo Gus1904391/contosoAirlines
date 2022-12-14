@@ -4,3 +4,39 @@
 .vuelta ion-icon{
     transform: rotate(180deg);
 }
+
+.logo {
+    width: 120px;
+}
+
+ion-header, ion-toolbar {
+    box-shadow: none;
+    background: none;
+}
+
+.header-md:after,
+.header-ios:after {
+    background:none;
+}
+
+
+ion-app{
+    background:linear-gradient(10deg, rgba(22, 164, 176, 0.95), rgba(218, 44, 56, 0.95)),  url('assets/planes-pattern.jpg');
+   
+}
+
+
+ion-card{
+    --background: white;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+ion-header ion-grid ion-col {
+    text-align: center;
+}
+
+.quitar-margen {
+    margin-left: -15px;
+    margin-right: -15px;
+}
