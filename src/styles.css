@@ -1,1 +1,6 @@
 /*Hoja de estilos global*/
+
+
+.vuelta ion-icon{
+    transform: rotate(180deg);
+}
