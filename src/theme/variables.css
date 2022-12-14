@@ -4,3 +4,41 @@
 
 /* To quickly generate your own theme, check out the color generator */
 /* https://ionicframework.com/docs/theming/color-generator */
+:root {
+    --ion-text-color:  #03071e;
+
+    --ion-color-secondary: #0fa3b1;
+    --ion-color-secondary-contrast: #f9f7f3;
+    --ion-color-secondary-tint: #0E8691;
+    
+    --ion-color-primary: #5DB3E2; /*#61C8FF;*/
+    --ion-color-primary-contrast: #f9f7f3;/*#03071e;*/
+    --ion-color-primary-tint: #b5e2fa;
+
+    --ion-color-tertiary: #A4E9ED;
+    --ion-color-tertiary-contrast: #03071e;
+    --ion-color-tertiary-tint: #6DB4B8;
+    
+    --ion-color-favorite: #f7a072;
+    --ion-color-favorite-contrast: #03071e;
+    --ion-color-favorite-tint: #fd955c;
+
+    --ion-color-warning: #ffd166;
+    --ion-color-warning-contrast: #03071e;
+    --ion-color-warning-tint: #;
+
+    --ion-color-danger: #da2c38;
+    --ion-color-danger-contrast: #f9f7f3;
+    --ion-color-danger-tint: #ac1923;
+
+    --ion-color-success: #7dcfb6;
+    --ion-color-success-contrast: #f9f7f3;
+    --ion-color-success-tint: #51BD9D;
+}
+
+
+
+.md ion-button {
+    text-transform: capitalize;
+}
+
