@@ -4,11 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { IonicModule } from '@ionic/angular';
 import { BuscaComponent } from './busca/busca.component';
+import { ConfirmacionComponent } from './confirmacion/confirmacion.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    BuscaComponent
+    BuscaComponent,
+    ConfirmacionComponent
   ],
   imports: [
     BrowserModule,
