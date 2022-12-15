@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { IonicModule } from '@ionic/angular';
+import { BuscaComponent } from './busca/busca.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BuscaComponent
   ],
   imports: [
     BrowserModule,

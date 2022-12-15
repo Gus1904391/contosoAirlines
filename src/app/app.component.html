@@ -1,45 +1,61 @@
+
 <ion-app>
-  <ion-header>
-    <ion-toolbar>
-     
+  <ion-menu contentId="contenido" type="push">
+    <ion-header>
+      <ion-toolbar>
+        <ion-title>Menu</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content class="ion-padding">
       
-     
-     <ion-title>
-     <ion-grid>
-      <ion-row>
-        <ion-col>
-           <!--<ion-img src="assets/logo.png" width="120px" height="60px" class="logo"></ion-img>-->
-      
-        <ion-label>
-          <ion-icon name="airplane"></ion-icon>
-          Contoso Airlines
-        </ion-label>
-        </ion-col>
-      </ion-row>
-     </ion-grid>
+      Agregar opciones aqui
+    </ion-content>
+  </ion-menu>
+  
+  <div class="ion-page" id="contenido">
+    <ion-header>
+      <ion-toolbar>
+        <ion-buttons slot="start" fill="outline">
+          <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+        <ion-title>
+          <ion-grid>
+            <ion-row>
+             
+              <ion-col size="11">
+                
+                <ion-label>
+                  <ion-icon name="airplane"></ion-icon>
+                  Contoso Airlines
+                </ion-label>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+          
+        </ion-title>
+      </ion-toolbar>
+    </ion-header>
     
-     </ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <ion-content class="ion-padding">
-    <h1>Tu app de viajes aqui</h1>
-
-
-    <div>
-      <h2>---Elementos---</h2>
-      <ion-button>Boton</ion-button>
-      <ion-card>
-        <ion-card-header>Encabezado tarjeta</ion-card-header>
-        <ion-card-content>Contenido tarjeta</ion-card-content>
-
-        <ion-button class="ida">
-          <ion-icon name="airplane"></ion-icon>
-        </ion-button>
-        <ion-button class="vuelta">
-          <ion-icon name="airplane"></ion-icon>
-        </ion-button>
-      </ion-card>
-    </div>
-  </ion-content>
+    
+    <ion-content>
+      <h1>Tu app de viajes aqui</h1>
+      
+      
+      <div>
+        <h2>---Elementos---</h2>
+        <ion-button>Boton</ion-button>
+        <ion-card>
+          <ion-card-header>Encabezado tarjeta</ion-card-header>
+          <ion-card-content>Contenido tarjeta</ion-card-content>
+          
+          <ion-button class="ida">
+            <ion-icon name="airplane"></ion-icon>
+          </ion-button>
+          <ion-button class="vuelta">
+            <ion-icon name="airplane"></ion-icon>
+          </ion-button>
+        </ion-card>
+      </div>
+    </ion-content>
+  </div>
 </ion-app>
