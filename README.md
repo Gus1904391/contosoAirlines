@@ -1,27 +1,48 @@
-# ContosoAirlines
+# Contoso Airlines
+Examen de Laboratorio de Aplicaciones Moviles
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.2.
+## Instalacion
+Clonar este repositorio `git clone https://github.com/luzaracelydls/contosoAirlines.git`
 
-## Development server
+Abrir en editor de Codigo VS Code
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Abrir la terminal de VSCOde o bien, la consola de Windows CMD y ubicar el folder donde clonaste el repositorio. Ejemplo, si lo guardaste en Documentos, la ruta a ubicar sería algo como: **c://Users/AlumnoUsuario/Documents/contosoAirlines**
 
-## Code scaffolding
+Instalar las dependencias `npm install`
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Crear una rama con la nomenclatura `MATRICULA-ALUMNO-contoso` (**Importante! ponderacion 5 puntos por este detalle**)
 
-## Build
+Correr el proyecto bajo `ng serve`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Al finalizar la actividad subiras tus cambios a la rama que creaste y **NO** a master.
 
-## Running unit tests
+## Puntos a Evaluar
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. **No es necesario agregar estilos adicionales, pero se debe utilizar componentes de Ionic**
+2. Para los datos de la aplicacion utilizaremos **Firebase** para almacenar las imagenes necesarias y las colecciones (base de datos)
 
-## Running end-to-end tests
+### Vista Principal
+Para esta seccion, puedes utilizar el componente **Slide** de Ionic. - 25 puntos 
+#### Busca Vuelo
+Seccion de busqueda de vuelos por localidades, cuando el usuario seleccione un destino al hacer clic en cualquiera de las tarjetas, se selecciona el destino y se muestra una seccion con una lista de localidades de origen desde donde el usuario quiere viajar. La vista debe ocultar la lista de los destinos.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
+#### Selecciona Horario
+Para este ejercicio no vamos a filtrar por fechas, pero habilitaremos una lista de horarios disponibles. El usuario debe haber seleccionado origen y destino para este paso. La vista debe ocultar la lista de ciudades origen para este punto. - 25 puntos
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+#### Agrega datos de pasajero - 20 puntos 
+Habilitar un formulario para que el usuario ingrese sus datos:
+1- Número de pasajeros.
+2- Por cada pasajero, incluir los siguientes campos:
+a. Nombre
+b. Apellidos
+c. No. de Pasaporte
+
+#### Confirmacion de Vuelo - 20 puntos
+Cuando el usuario llene los datos de los pasajeros, llevar a una pantalla de confirmación con los detalles del vuelo seleccionado
+
+### Menu lateral - 15 puntos 
+El menu lateral incluye opciones de navegacion de cuenta, vuelos e inicio. Cada enlace lleva a una ruta diferente y cada pantalla utiliza datos de la base de datos.
+
+#### Fecha de entrega
+16 de Diciembre antes de las 23:59
