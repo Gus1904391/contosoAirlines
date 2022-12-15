@@ -72,3 +72,56 @@ ion-menu ul li a {
 ion-menu ul {
     padding: 0;
 }
+
+ion-searchbar {
+    --ion-background-color: white;
+}
+
+.resultados {
+    margin: 0 15px;
+}
+
+.destino-abreviado {
+    color:rgba(13, 18, 114, 0.95);
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.destino-ciudad-aeroperto {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.destino-ciudad-aeroperto ion-text {
+    font-size: 20px;
+}
+
+.destino-ciudad-aeroperto ion-text:first-child{
+    font-weight: 600;
+    color: rgba(13, 18, 114, 0.95);
+}
+
+.confirmacion ion-card {
+    text-align: center;
+}
+
+.confirmacion ion-card-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.confirmacion ion-card-content .ida,
+.confirmacion ion-card-content .regreso {
+}
+
+.confirmacion .vuelo p:first-child,
+.confirmacion .asiento p:first-child{
+
+}
+
+.confirmacion .vuelo p:last-child,
+.confirmacion .asiento p:last-child{
+    font-weight: 700;
+    color: rgba(13, 18, 114, 0.95);
+}
