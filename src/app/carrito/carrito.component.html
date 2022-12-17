@@ -1,0 +1,51 @@
+<ion-grid>
+    <ion-card-content>
+        <ion-col size="12" size-md="10">
+            <ion-card>
+                <ion-card-content>
+                    <p>CIUDAD DE MEXICO</p>
+                    <ion-img src='assets/imagenes/viaje1.jpg'></ion-img>
+                    <P>UN LUGAR MUY ENCANTADOR, CON UNA ENORME CANTIDAD DE LUGARES PARA COMER, TURISTEAR Y TENER UNA GRAN EXPERIENCIA</P>
+                </ion-card-content>
+
+            </ion-card>
+        </ion-col>
+        <ion-col size="12" offset-md="1" size-md="2">
+            <h2>PRECIO </h2>
+            <p>$5,500</p>
+            <P>HORARIO</P>
+        </ion-col>
+        <ion-card>
+            <ion-list>
+                <ion-item>
+                    <ion-select interface=" popover " placeholder="Horario" (ionChange)="seleccionarHorario($event) ">
+                        <ion-select-option value="1 ">13:00 pm</ion-select-option>
+                        <ion-select-option value="2 ">14:00 pm</ion-select-option>
+                        <ion-select-option value="3 ">15:00 pm</ion-select-option>
+                        <ion-select-option value="4 ">16:00 pm</ion-select-option>
+                        <ion-select-option value="5 ">17:00 pm</ion-select-option>
+                    </ion-select>
+                </ion-item>
+            </ion-list>
+        </ion-card>
+        <ion-col size="5 " offset-md="4 " size-md="2 ">
+            <ion-list>
+                <ion-item>
+                    <ion-select interface="popover " placeholder="Cantidad " (ionChange)="seleccionarCantidad($event)  ">
+                        <ion-select-option value="1 ">1</ion-select-option>
+                        <ion-select-option value="2 ">2</ion-select-option>
+                        <ion-select-option value="3 ">3</ion-select-option>
+                        <ion-select-option value="4 ">4</ion-select-option>
+                        <ion-select-option value="5 ">5</ion-select-option>
+                    </ion-select>
+                </ion-item>
+            </ion-list>
+            <p>Vas a agregar<strong> {{cantidad}}</strong></p>
+            <ion-button shape="round " color="warning ">
+                Comprar
+
+            </ion-button>
+        </ion-col>
+
+    </ion-card-content>
+</ion-grid>
